@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet, Dimensions } from 'react-native';
 
 export default function Index() {
   return (
@@ -7,7 +7,7 @@ export default function Index() {
       <Image
         source={require('../assets/images/LoginPage.png')}
         style={styles.loginImage}
-        resizeMode="contain"
+        resizeMode="cover"
       />
       <View style={styles.buttonContainer}>
         <Image
